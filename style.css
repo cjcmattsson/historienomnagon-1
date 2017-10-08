@@ -112,22 +112,24 @@ width: 500px;
   background-image: linear-gradient(45deg, rgb(80, 123, 148) 25%, transparent 25%, transparent 75%, rgb(80, 123, 148) 75%, rgb(80, 123, 148)), linear-gradient(-45deg, rgb(80, 123, 148) 25%, transparent 25%, transparent 75%, rgb(80, 123, 148) 75%, rgb(80, 123, 148));
   background-size: 60px 60px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-
+  justify-content: space-around;
 }
 
 .textfour {
+  display: flex;
   height: 200px;
   width: 300px;
   font-size: 24px;
-  position: absolute;
-  right: 25px;
+  align-self: flex-start;
+  margin: 10%;
 }
 
-.skåp {
-  height: 500px;
-  width: 175px;
+#skåp {
+  min-height: 60vh;
+  max-height: 70vh;
+  min-width: 10vw;
+  max-width: 20vw;
+
 }
 
 
