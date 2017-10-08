@@ -2,6 +2,10 @@ body {
   margin: 0px;
 }
 
+* {
+
+}
+
 .wrapper {
   width: 100vw;
   display: flex;
@@ -25,7 +29,7 @@ svg {
 }
 
 svg path {
-  fill: rgb(230, 77, 79);
+  fill: #d08989;
   animation: fill forwards;
   animation-duration: 2s;
   animation-delay: 2s;
@@ -34,7 +38,7 @@ svg path {
 
 @keyframes fill {
   from {
-    fill: rgb(230, 77, 79);
+  
   }
   to {
     fill: white;
@@ -53,7 +57,7 @@ svg path {
   }
 }
 
-.start {
+  .start {
   width: 100vw;
   height: 100vh;
   background-color: white;
@@ -64,7 +68,7 @@ svg path {
   background-color: #d08989;
 }
 
-.ett {
+.one {
 
   background-color: rgb(172, 140, 121);
   display: flex;
@@ -78,17 +82,29 @@ svg path {
   font-size: 16px;
 }
 
-.två {
+.two {
   background-color: rgb(219, 212, 206);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+}
+.texttwo {
+margin: 0;
+height: 200px;
+width: 500px;
 }
 
-.tre {
+.three {
   background: linear-gradient(135deg, #d8dee3 22px, #f9f9f9 22px, #f9f9f9 24px, transparent 24px, transparent 67px, #f9f9f9 67px, #f9f9f9 69px, transparent 69px), linear-gradient(225deg, #d8dee3 22px, #f9f9f9 22px, #f9f9f9 24px, transparent 24px, transparent 67px, #f9f9f9 67px, #f9f9f9 69px, transparent 69px)0 64px;
   background-color: #d8dee3;
   background-size: 64px 128px
 }
+.textthree {
+  margin: 0;
+}
 
-.fyra {
+.four {
   background-color: #eee;
   /*background-image: linear-gradient(45deg, rgb(80, 123, 148) 25%, transparent 25%, transparent 75%, rgb(80, 123, 148) 75%, rgb(80, 123, 148)), linear-gradient(-45deg, rgb(80, 123, 148) 25%, transparent 25%, transparent 75%, rgb(80, 123, 148) 75%, rgb(80, 123, 148));*/
   /*background-size: 60px 60px;*/
@@ -103,7 +119,7 @@ svg path {
   width: 300px;
   font-size: 24px;
   position: absolute;
-right: 25px;
+  right: 25px;
 }
 
  #stairs {
@@ -112,10 +128,21 @@ right: 25px;
 
  }
 
-.fem {
+.five {
   background: linear-gradient(#ffffff 50%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255, 255, 255, 0) 0) 55px 0 #48B;
   background-size: 110px 200px;
   background-repeat: repeat-x;
+}
+.textfive {
+  margin: 0;
+}
+
+.six {
+  background-color: #f5c5de;
+}
+
+.textsix {
+  margin: 0;
 }
 
 @keyframes float {
@@ -140,7 +167,7 @@ right: 25px;
 
 .bakgrund {
   height: 100vh;
-  width: 100%;
-  opacity: 1;
+  width: 100vw;
+
 
 }

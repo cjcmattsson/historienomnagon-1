@@ -7,19 +7,25 @@
   <link rel="stylesheet" href="style.css">
 
 
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+  </script>
+  <script src="jquery.easings.min.js"></script>
+  <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+      $('#fullpage').fullpage();
+  });
+  </script>
 </head>
 
-<style>
 
-
-
-</style>
 <body>
-  <button type=“button” class=“scroll-down”>Down</button>
-  <button type=“button” class=“scroll-up”>Up</button>
 
-  <section class="wrapper">
-  <div class="start">
+  <div id="fullpage"><div class="wrapper">
+  <div class="section"><div class="start">
 
 
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -314,61 +320,55 @@
     </svg>
 
 <div class="titellogo"><img class="nyckelhal" src="nyckelhal.png" alt="titellogo"></div>
-
+</div>
 </div>
 
 
-    <div class="bakgrund ett"> <p class="textone">Det här var underligt! Det är en våt fläck på golvet i tamburen! Någon måste ha varit här!
+    <div class="section"><div class="bakgrund one"> <p class="textone">Det här var underligt! Det är en våt fläck på golvet i tamburen! Någon måste ha varit här!
       Det är någon som har smugit sig in genom porten och in genom dörrspringan och lämnat en våt
       fläck på golvet. Vem kan det vara? Var kan han vara nu? Vi ska se efter om han gömmer sig
       i nästa rum!</p>
+      </div>
     </div>
 
 
-    <div class="bakgrund två">
+    <div class="section"><div class="bakgrund two">
       <p class="texttwo">Kan du tänka dig, det är någon som har varit och stökat till det i det här rummet också.
       Han har vält om kull mormors runda stickbord. Mormors stickning ligger på golvet.
       Men garnnystanet är borta. Var kan det vara? Det ligger en röd ulltråd på golvet.
       Vi ska ta och följa den, så kanske vi kan finna vår gäst.</p>
     </div>
+  </div>
 
-    <div class="bakgrund tre">
+    <div class="section"><div class="bakgrund three">
       <p class="textthree">Vi följer ulltråden in i köket. Men vem kan det vara som har ätit upp de två fiskarna,
       som vi skulle ha till middag? Kanske han har smitit in i skåpet! Kanske han sitter
       och äter upp all annan mat för oss nu! Vi öppnar skåpdörren och ser efter. Någon har
       varit där inne också. Tillbringaren ligger omkullvält och all mjölken är urdrucken.
       Men ulltråden går vidare ut i hallen och…</p>
+      </div>
     </div>
 
-    <div class="bakgrund fyra"><img id="stairs" src="stairs.png"> <p class="textfour">…uppför trappan till över våningen. Mitt i trappan går tråden runt en av pinnarna i trappräcket.
+    <div class="section"><div class="bakgrund four"><img id="stairs" src="stairs.png"> <p class="textfour">…uppför trappan till över våningen. Mitt i trappan går tråden runt en av pinnarna i trappräcket.
     Det var väl konstigt!</p>
     </div>
-
-    <div class="bakgrund fem"><p class="textfive">Oh, en sån olycka! Här har också någon varit framme! Den ena guldfisken har kommit ur akvariet
-      och hamnat på bordet. Där ligger han nu och sprattlar. Vi skyndar oss att stoppa ner honom i vattnet
-      igen. Vem kan ha varit här?</p>
     </div>
 
-  </section>
+    <div class="section"><div class="bakgrund five"><p class="textfive">Oh, en sån olycka! Här har också någon varit framme! Den ena guldfisken har kommit ur akvariet
+      och hamnat på bordet. Där ligger han nu och sprattlar. Vi skyndar oss att stoppa ner honom i vattnet
+      igen. Vem kan ha varit här?</p>
+      </div>
+    </div>
+
+    <div class="section"><div class="bakgrund six"><p class="textfive">Vi följer den röda tråden in under sängarna i sängkammaren, och när vi kommer ut på andra sidan - vad tror du vi får se? Någon har ställt till en väldig röra på golvet - han har dragit ner en blomkruka så att den gått i tusen bitar. Nej, nu måste vi snart ha fatt på honom. Upp för en trappa till - raska på!</p>
+    </div>
+  </div>
+  </div>
+</div>
 
 
-<script src=“http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js“></script>
-<script>
 
-$('button').on('click', function(event) {
 
-    var target = $(this.getAttribute('href'));
-
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-
-});
-
-</script>
 
 
 
