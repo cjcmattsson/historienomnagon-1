@@ -108,8 +108,9 @@ width: 500px;
 
 .four {
   background-color: #eee;
-  /*background-image: linear-gradient(45deg, rgb(80, 123, 148) 25%, transparent 25%, transparent 75%, rgb(80, 123, 148) 75%, rgb(80, 123, 148)), linear-gradient(-45deg, rgb(80, 123, 148) 25%, transparent 25%, transparent 75%, rgb(80, 123, 148) 75%, rgb(80, 123, 148));*/
-  /*background-size: 60px 60px;*/
+
+  background-image: linear-gradient(45deg, rgb(80, 123, 148) 25%, transparent 25%, transparent 75%, rgb(80, 123, 148) 75%, rgb(80, 123, 148)), linear-gradient(-45deg, rgb(80, 123, 148) 25%, transparent 25%, transparent 75%, rgb(80, 123, 148) 75%, rgb(80, 123, 148));
+  background-size: 60px 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,27 +125,48 @@ width: 500px;
   right: 25px;
 }
 
- #stairs {
-     min-height: 70vh;
-     min-width: 25vw;
+.skåp {
+  height: 500px;
+  width: 175px;
+}
 
- }
+
 
 .five {
-  background: linear-gradient(#ffffff 50%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255, 255, 255, 0) 0) 55px 0 #48B;
-  background-size: 110px 200px;
-  background-repeat: repeat-x;
+display: flex;
+justify-content:  space-around;
+
+align-items: center;
 }
+
 .textfive {
   margin: 0;
+  height: 200px;
+  width: 300px;
+}
+
+#stairs {
+    min-height: 70vh;
+    min-width: 25vw;
+
 }
 
 .six {
-  background-color: #f5c5de;
+  background: linear-gradient(#ffffff 50%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255, 255, 255, 0) 0) 55px 0 #48B;
+  background-size: 110px 200px;
+  background-repeat: repeat-x;
+
 }
 
 .textsix {
   margin: 0;
+}
+
+.seven {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
 }
 
 @keyframes float {
