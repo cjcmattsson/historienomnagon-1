@@ -95,6 +95,10 @@ height: 200px;
 width: 500px;
 }
 
+#mess {
+
+}
+
 .three {
   background: linear-gradient(135deg, #d8dee3 22px, #f9f9f9 22px, #f9f9f9 24px, transparent 24px, transparent 67px, #f9f9f9 67px, #f9f9f9 69px, transparent 69px), linear-gradient(225deg, #d8dee3 22px, #f9f9f9 22px, #f9f9f9 24px, transparent 24px, transparent 67px, #f9f9f9 67px, #f9f9f9 69px, transparent 69px)0 64px;
   background-color: #d8dee3;
@@ -126,22 +130,24 @@ width: 500px;
   background-image: linear-gradient(45deg, rgb(80, 123, 148) 25%, transparent 25%, transparent 75%, rgb(80, 123, 148) 75%, rgb(80, 123, 148)), linear-gradient(-45deg, rgb(80, 123, 148) 25%, transparent 25%, transparent 75%, rgb(80, 123, 148) 75%, rgb(80, 123, 148));
   background-size: 60px 60px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-
+  justify-content: space-around;
 }
 
 .textfour {
+  display: flex;
   height: 200px;
   width: 300px;
   font-size: 24px;
-  position: absolute;
-  right: 25px;
+  align-self: flex-start;
+  margin: 10%;
 }
 
-.skåp {
-  height: 500px;
-  width: 175px;
+#skåp {
+  min-height: 60vh;
+  max-height: 70vh;
+  min-width: 10vw;
+  max-width: 20vw;
+
 }
 
 
@@ -169,12 +175,29 @@ align-items: center;
   background: linear-gradient(#ffffff 50%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255, 255, 255, 0) 0) 55px 0 #48B;
   background-size: 110px 200px;
   background-repeat: repeat-x;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 
 }
 
 .textsix {
-  margin: 0;
+  height: 200px;
+  width: 300px;
+  font-size: 24px;
+  margin: 10%;
 }
+
+#goldfish {
+  min-width: 40vw;
+  min-height: 70vh;
+  max-width: 40vh;
+  max-height: 70vh;
+  align-self: flex-start;
+  margin-right: 10%;
+
+}
+
 
 .seven {
   display: flex;
