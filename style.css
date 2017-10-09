@@ -203,9 +203,19 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items:center;
+  background-color: pink;
 
 }
 
+.textseven {
+  width: 300px;
+  height: 200px;
+}
+#vase {
+  height: 300px;
+  width: 200px;
+  transform: rotate(-120deg);
+}
 @keyframes float {
   0% {
     transform: translatex(5px);
