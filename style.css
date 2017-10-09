@@ -123,18 +123,31 @@ font-size: 24px;
   margin-left: 20px;;
   height: 200px;
   width: 300px;
+  font-size: 24px;
 }
 
 #kitchenware1 {
   height: 100px;
   width: 150px;
+  animation: kitchenware1 4s linear 1;
+}
+
+@keyframes kitchenware1 {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
 }
 
 #kitchenware2 {
   height: 150px;
   width: 150px;
-
+  animation: kitchenware2 3s linear 1;
 }
+
+@keyframes kitchenware2 {
+    from { transform: rotate(0deg) translateX(300px) rotate(0deg); }
+    to   { transform: rotate(-180deg) translateX(300px) rotate(180deg); }
+}
+
 .four {
   background-color: #eee;
 background-image: linear-gradient(45deg, LightCyan 25%, transparent 25%, transparent 75%, LightCyan 75%, LightCyan),
@@ -210,7 +223,7 @@ align-items: center;
   animation-name: move;
           animation-duration: 2s;
           animation-direction: alternate;
-          animation-iteration-count: 3;
+          animation-iteration-count: 2;
           animation-timing-function: ease;
 
 }
@@ -218,7 +231,7 @@ align-items: center;
 
       #goldfish.animate {
         animation-name: move;
-        animation-duration: 4s;
+        animation-duration: 3s;
       }
 
       @keyframes move {
@@ -290,13 +303,13 @@ transition: .2s ease;
 }
 @keyframes float {
   0% {
-    transform: translatex(5px);
+    transform: translatex(50px);
   }
   50% {
-    transform: translatey(-5px);
+    transform: translatey(-50px);
   }
   100% {
-    transform: translatex(5px);
+    transform: translatex(50px);
   }
 }
 
