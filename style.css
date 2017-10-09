@@ -139,14 +139,14 @@ width: 500px;
   width: 300px;
   font-size: 24px;
   align-self: flex-start;
-  margin: 10%;
+  margin: 20%;
 }
 
-#skåp {
-  min-height: 60vh;
-  max-height: 70vh;
-  min-width: 10vw;
-  max-width: 20vw;
+.skåp {
+  align-self:center;
+  height: 700px;
+  width: 350px;
+  margin-right: 10%;
 
 }
 
