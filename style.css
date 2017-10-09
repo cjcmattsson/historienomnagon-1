@@ -95,9 +95,6 @@ height: 200px;
 width: 500px;
 }
 
-#mess {
-
-}
 
 .three {
   background: linear-gradient(135deg, #d8dee3 22px, #f9f9f9 22px, #f9f9f9 24px, transparent 24px, transparent 67px, #f9f9f9 67px, #f9f9f9 69px, transparent 69px), linear-gradient(225deg, #d8dee3 22px, #f9f9f9 22px, #f9f9f9 24px, transparent 24px, transparent 67px, #f9f9f9 67px, #f9f9f9 69px, transparent 69px)0 64px;
@@ -155,7 +152,7 @@ width: 500px;
 .five {
 display: flex;
 justify-content:  space-around;
-
+background-color: grey;
 align-items: center;
 }
 
@@ -176,8 +173,8 @@ align-items: center;
   background-size: 110px 200px;
   background-repeat: repeat-x;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center
 
 }
 
@@ -185,7 +182,7 @@ align-items: center;
   height: 200px;
   width: 300px;
   font-size: 24px;
-  margin: 10%;
+
 }
 
 #goldfish {
@@ -202,6 +199,7 @@ align-items: center;
 .seven {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items:center;
   background-color: pink;
 
@@ -214,6 +212,46 @@ align-items: center;
 #vase {
   height: 300px;
   width: 200px;
+  transform: rotate(-120deg);
+}
+
+.eleven {
+  background-color:grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skåpvas {
+z-index: 1;
+height: 350px;
+width: 350px;
+}
+.dörrtrigger {
+  height: 350px;
+  width: 350px;
+  transition: .2s ease;
+  
+
+}
+
+#dörrvas {
+z-index: 2;
+position: absolute;
+  transform-origin: left;
+transition: .2s ease;
+}
+
+.dörrtrigger:hover ~ #dörrvas {
+  transform: rotatey(180deg);
+
+}
+
+
+
+#flower{
+  height: 200px;
+  width: 100px;
   transform: rotate(-120deg);
 }
 @keyframes float {
