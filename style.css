@@ -57,6 +57,13 @@ svg path {
   }
 }
 
+.bakgrund {
+  height: 100vh;
+  width: 100vw;
+
+
+}
+
   .start {
   width: 100vw;
   height: 100vh;
@@ -262,12 +269,28 @@ align-items: center;
   transform: rotate(-120deg);
 }
 
+.eight {
+  background-color: grey;
+  display: flex;
+}
+
+.nine {
+  background-color: lightblue;
+  display:flex;
+}
+
+.ten {
+  background-color: tomato;
+  display: flex;
+
+}
 .eleven {
   background-color:grey;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 #skåpvas {
 z-index: 1;
@@ -279,19 +302,30 @@ width: 350px;
   width: 350px;
   transition: .2s ease;
 
-
 }
 
 #dörrvas {
 z-index: 2;
 position: absolute;
   transform-origin: left;
-transition: .2s ease;
+transition: .5s ease-in-out;
 }
 
 .dörrtrigger:hover ~ #dörrvas {
   transform: rotatey(180deg);
+pointer-events: none;
+}
 
+.twelve {
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#flippedvase {
+  height: 300px;
+  width: 400px;
 }
 
 
@@ -319,11 +353,4 @@ transition: .2s ease;
   box-sizing: border-box;
   margin-left: 20px;
   animation: float 3s ease-in-out infinite;
-}
-
-.bakgrund {
-  height: 100vh;
-  width: 100vw;
-
-
 }
