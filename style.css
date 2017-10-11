@@ -262,6 +262,52 @@ align-items: center;
   transform: rotate(-120deg);
 }
 
+.eight {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(181, 169, 141);
+}
+
+.texteight {
+  width: 300px;
+  height: 200px;
+}
+
+#bags_attic {
+  height: 700px;
+  width: 900px;
+}
+
+
+.nine {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color:
+}
+
+.textnine {
+  width: 300px;
+  height: 200px;
+}
+
+#rathole {
+  height: 700px;
+  width: 900px;
+}
+
+.ten {
+
+}
+
+.textten{
+  width: 300px;
+  height: 200px;
+}
+
 .eleven {
   background-color:grey;
   display: flex;
@@ -293,8 +339,6 @@ transition: .2s ease;
   transform: rotatey(180deg);
 
 }
-
-
 
 #flower{
   height: 200px;
