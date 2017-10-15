@@ -5,20 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Historien om någon</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animate.css">
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
-  </script>
+
   <script src="jquery.easings.min.js"></script>
-  <script type="text/javascript" src="jquery.fullPage.min.js"></script> -->
+  <script type="text/javascript" src="jquery.fullPage.min.js"></script>
 
 
   <script type="text/javascript">
+
   $(document).ready(function() {
-      $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+
+
+      scrollBar: true,
   });
-  </script>
+    });
+    </script>
+
+
 </head>
 
 
@@ -324,40 +332,39 @@
 </div>
 
 
-    <div class="section"><div class="bakgrund one"> <p class="textone">Det här var underligt! Det är en våt fläck på golvet i tamburen! Någon måste ha varit här!
+    <div class="section"><div class="bakgrund one"> <h1 class="wow fadeInDown" id="textone">Det här var underligt! Det är en våt fläck på golvet i tamburen! Någon måste ha varit här!
       Det är någon som har smugit sig in genom porten och in genom dörrspringan och lämnat en våt
       fläck på golvet. Vem kan det vara? Var kan han vara nu? Vi ska se efter om han gömmer sig
-      i nästa rum!</p>
-      <img id="puddle" src="puddle.png" alt="puddle">
+      i nästa rum!</h1>
+      <img class="wow bounceIn" id="puddle" src="puddle.png" alt="puddle">
       </div>
     </div>
 
 
+
+
     <div class="section"><div class="bakgrund two">
-      <p class="texttwo">Kan du tänka dig, det är någon som har varit och stökat till det i det här rummet också.
+      <p class="wow zoomIn" id="texttwo">Kan du tänka dig, det är någon som har varit och stökat till det i det här rummet också.
       Han har vält om kull mormors runda stickbord. Mormors stickning ligger på golvet.
       Men garnnystanet är borta. Var kan det vara? Det ligger en röd ulltråd på golvet.
       Vi ska ta och följa den, så kanske vi kan finna vår gäst.</p>
-      <img id="mess" src="s2_mess.png" alt="a mess">
+      <img class="wow fadeIn mess" src="s2_mess.png" alt="a mess">
   </div>
 </div>
-
-
-
-
 
     <div class="section">
       <div class="bakgrund three">
         <img id="kitchenware1" src="kitchenware1.png" alt="">
         <img id="kitchenware2" src="kitchenware2.png" alt="">
-          <p class="textthree">Vi följer ulltråden in i köket. Men vem kan det vara som har ätit upp de två fiskarna, som vi skulle ha till middag? Kanske han har smitit in i skåpet! Kanske han sitter
+        <img id="fish"src="fish.png" alt="">
+          <p id="textthree" class="wow fadeIn">Vi följer ulltråden in i köket. Men vem kan det vara som har ätit upp de två fiskarna, som vi skulle ha till middag? Kanske han har smitit in i skåpet! Kanske han sitter
       och äter upp all annan mat för oss nu!</p>
         </div>
       </div>
 
       <div class="section">
         <div class="bakgrund four">
-          <p class="textfour"> Vi öppnar skåpdörren och ser efter. Någon har varit där inne också. Tillbringaren ligger omkullstjälpt och all mjölken är urdrucken. Men ulltråden går vidare ut i hallen och...
+          <p class="wow fadeIn" id="textfour"> Vi öppnar skåpdörren och ser efter. Någon har varit där inne också. Tillbringaren ligger omkullstjälpt och all mjölken är urdrucken. Men ulltråden går vidare ut i hallen och...
           </p>
         <img class="skåp" src="s4_skåp.png" alt="skåp">
         </div>
@@ -365,7 +372,10 @@
 
 
 
-    <div class="section"><div class="bakgrund five"><img id="stairs" src="stairs.png"> <p class="textfive">…uppför trappan till över våningen. Mitt i trappan går tråden runt en av pinnarna i trappräcket.
+    <div class="section"><div class="bakgrund five">
+      <img id="stairs" src="stairs.png">
+
+       <p id="textfive" class="wow fadeIn">…uppför trappan till över våningen. Mitt i trappan går tråden runt en av pinnarna i trappräcket.
     Det var väl konstigt!</p>
     </div>
     </div>
@@ -406,7 +416,7 @@
     <div class="bakgrund eleven">
     <div class="dörrtrigger">  <img id="skåpvas" src="skåp.png" alt=""></div>
       <img id="dörrvas" src="dörr.png" alt="">
-        <p class="texteleven"> Sakta, sakta, sakta, öppnar vi skåpdörren. Därinne står en gammal fin blå vas. Den är sprucken. Därför står den i ett skåp på vinden. Ulltråden går ner i den gamla fina blå vasen. Ska vi våga ta ut den och se efter vad som finns i den?</p>
+        <!-- <p class="texteleven"> Sakta, sakta, sakta, öppnar vi skåpdörren. Därinne står en gammal fin blå vas. Den är sprucken. Därför står den i ett skåp på vinden. Ulltråden går ner i den gamla fina blå vasen. Ska vi våga ta ut den och se efter vad som finns i den?</p> -->
     </div>
 
   </div>
@@ -424,7 +434,28 @@
 
   </div>
 
+  <!-- Scrolltriggad animation -->
 
+  <script src="wow-master/dist/wow.js"></script>
+  <script>
+  var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null // optional scroll container selector, otherwise use window
+  }
+);
+wow.init();
+
+</script>
 
 
 

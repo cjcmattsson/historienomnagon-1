@@ -6,6 +6,12 @@ body {
 
 }
 
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+  font-family: Arial;
+}
+
 .wrapper {
   width: 100vw;
   display: flex;
@@ -15,6 +21,7 @@ body {
 svg {
   margin-left: 20px;
   margin-right: 20px;
+
 }
 
 svg {
@@ -83,17 +90,17 @@ svg path {
   justify-content: center;
 }
 
-.textone {
+#textone {
   height:200px;
   width: 500px;
   font-size: 24px;
-  margin-left: 5%;
+  margin-left: 50px;
 }
 
 #puddle {
   height: 800px;
   width: 700px;
-
+animation-delay: 1s;
 }
 
 .two {
@@ -103,17 +110,19 @@ svg path {
   align-items:center;
 
 }
-.texttwo {
+#texttwo {
 margin-left: 5%;
 height: 200px;
 width: 500px;
 font-size: 24px;
 }
 
-#mess {
-  height: 550px;
-  width: 700px;
+.mess {
+  height: 450px;
+  width: 600px;
   margin-right: 5%;
+  animation-delay: 0.5s;
+
 
 }
 
@@ -126,34 +135,41 @@ font-size: 24px;
   justify-content: center;
 
 }
-.textthree {
+#textthree {
   margin-left: 20px;;
   height: 200px;
   width: 300px;
   font-size: 24px;
 }
 
+#fish {
+  height: 200px;
+  transform: rotate(-90deg);
+}
+
 #kitchenware1 {
   height: 100px;
   width: 150px;
-  animation: kitchenware1 4s linear 1;
+  animation: kitchenware1 10s ease-in-out alternate infinite;
 }
 
 @keyframes kitchenware1 {
-    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    from { transform: rotate(90deg) translateX(150px) rotate(0deg); }
     to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
 }
 
 #kitchenware2 {
   height: 150px;
   width: 150px;
-  animation: kitchenware2 3s linear 1;
+  animation: kitchenware2 20s alternate ease-in-out infinite;
 }
 
 @keyframes kitchenware2 {
-    from { transform: rotate(0deg) translateX(300px) rotate(0deg); }
-    to   { transform: rotate(-180deg) translateX(300px) rotate(180deg); }
-}
+  from { transform: rotate(20deg) translateX(300px) rotate(360deg); }
+
+  to   {transform: rotate(360deg) translateY(300px) rotate(-360deg); }
+
+  }
 
 .four {
   background-color: #eee;
@@ -164,7 +180,7 @@ background-size:60px 60px;
   justify-content: space-around;
 }
 
-.textfour {
+#textfour {
   display: flex;
   height: 200px;
   width: 300px;
@@ -190,7 +206,7 @@ background-color: grey;
 align-items: center;
 }
 
-.textfive {
+#textfive {
   margin: 0;
   height: 200px;
   width: 300px;
