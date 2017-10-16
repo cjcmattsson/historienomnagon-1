@@ -1,8 +1,16 @@
-@media screen and (max-width: 768px) {
-  svg {
-    width: 200px;
+@media screen and (max-width: 500px) {
+  .svg {
+    width: 80vw;
   }
-  h1 { font-size: 20px; }
+
+  .start {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  svg
+  h1 { font-size: 20px; {}}
 }
 
 
@@ -38,8 +46,8 @@ p {
 svg {
   margin-left: 20px;
   margin-right: 20px;
-  min-width: 575px;
-  min-height:317px;
+  width: 575px;
+  height:317px;
 
 }
 
