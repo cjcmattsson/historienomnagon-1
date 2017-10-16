@@ -289,18 +289,20 @@ align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  align-items: center;
+  align-items:flex-start;
   background-color: rgb(181, 169, 141);
 }
 
 .texteight {
   width: 300px;
   height: 200px;
+  font-size: 24px;
 }
 
 #bags_attic {
-  height: 700px;
-  width: 900px;
+  height: 600px;
+  width: 800px;
+  align-self: flex-end;
 }
 
 
@@ -309,17 +311,19 @@ align-items: center;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  background-color:
+  background-color: rgb(217, 227, 219);
 }
 
 .textnine {
   width: 300px;
   height: 200px;
+  font-size: 24;
 }
 
 #rathole {
-  height: 700px;
-  width: 900px;
+  height: 350px;
+  width: 500px;
+  
 }
 
 .ten {
