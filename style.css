@@ -1,21 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
 
 
-
-=======
-@media screen and (max-width: 768px) {
-  svg {
-    width: 200px;
-  }
-  h1 { font-size: 20px; }
->>>>>>> 4bf56d0b0d77490a11c966d68b4e4141d46649c9
-=======
 @media screen and (max-width: 500px) {
   .svg {
     width: 80vw;
@@ -27,9 +11,8 @@
     flex-direction: column;
 
   }
-  svg
-  h1 { font-size: 20px; {}}
->>>>>>> e7f815eef8af6facce79cae687e35a8cd8bff083
+
+
 }
 
 
