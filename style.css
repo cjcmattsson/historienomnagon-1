@@ -1,5 +1,10 @@
 body {
   margin: 0px;
+  font-size: 16px;
+}
+
+p {
+  font-size: 120%;
 }
 
 * {
@@ -96,7 +101,6 @@ svg path {
 #textone {
   height:200px;
   width: 500px;
-  font-size: 24px;
   margin-left: 50px;
 }
 
@@ -111,14 +115,17 @@ svg path {
   display: flex;
   justify-content: space-between;
   align-items:center;
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> f0b9f7cdbb59f39f7ed13aa24ed15cf4c0f4ba30
 }
+
 #texttwo {
 margin-left: 5%;
 height: 200px;
 width: 500px;
-font-size: 24px;
 }
 
 .mess {
@@ -143,11 +150,14 @@ font-size: 24px;
   margin-left: 20px;;
   height: 200px;
   width: 300px;
+<<<<<<< HEAD
+=======
   font-size: 24px;
   z-index: 1;
   position: absolute;
   bottom: 20px;
   right: 20px;
+>>>>>>> f0b9f7cdbb59f39f7ed13aa24ed15cf4c0f4ba30
 }
 
 #fish {
@@ -339,7 +349,7 @@ right: 100px;
 .textnine {
   width: 300px;
   height: 200px;
-  font-size: 24;
+  font-size: 1em;
 }
 
 #rathole {
