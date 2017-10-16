@@ -99,9 +99,10 @@ svg path {
 }
 
 #textone {
-  height:200px;
-  width: 500px;
-  margin-left: 50px;
+  margin-left: 15%;
+  align-self: flex-start;
+  width: 40vw;
+
 }
 
 #puddle {
@@ -115,23 +116,19 @@ svg path {
   display: flex;
   justify-content: space-between;
   align-items:center;
-<<<<<<< HEAD
-=======
-
-
->>>>>>> f0b9f7cdbb59f39f7ed13aa24ed15cf4c0f4ba30
 }
 
 #texttwo {
-margin-left: 5%;
-height: 200px;
-width: 500px;
+margin-left: 10%;
+width: 40vw;
 }
 
 .mess {
-  height: 450px;
-  width: 600px;
-  margin-right: 5%;
+  height: 20vh;
+  width: 45vw;
+  align-self:baseline;
+  margin-right: 10%;
+  margin-top: 20%;
   animation-delay: 0.5s;
 
 
@@ -147,17 +144,9 @@ width: 500px;
   position: relative;
 }
 #textthree {
-  margin-left: 20px;;
+  margin-left: 20px;
   height: 200px;
   width: 300px;
-<<<<<<< HEAD
-=======
-  font-size: 24px;
-  z-index: 1;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
->>>>>>> f0b9f7cdbb59f39f7ed13aa24ed15cf4c0f4ba30
 }
 
 #fish {
@@ -204,11 +193,9 @@ background-size:60px 60px;
 
 #textfour {
   display: flex;
-  height: 200px;
-  width: 300px;
-  font-size: 24px;
-  align-self: flex-start;
-  margin: 20%;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 40vw;
 }
 
 #skåp {
@@ -232,7 +219,6 @@ align-items: center;
   margin: 0;
   height: 200px;
   width: 300px;
-  font-size: 24px;
 }
 
 #stairs {
@@ -255,7 +241,6 @@ align-items: center;
 
   height: 200px;
   width: 300px;
-  font-size: 24px;
   margin-left:20px;
   position: relative;
 
@@ -304,7 +289,6 @@ height: 300px;
 .textseven {
   width: 300px;
   height: 200px;
-  font-size: 24px;
   position: absolute;
   left: 100px;
 }
@@ -328,7 +312,6 @@ right: 100px;
 .texteight {
   width: 300px;
   height: 200px;
-  font-size: 24px;
 }
 
 #bags_attic {
@@ -349,7 +332,6 @@ right: 100px;
 .textnine {
   width: 300px;
   height: 200px;
-  font-size: 1em;
 }
 
 #rathole {
