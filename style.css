@@ -1,4 +1,4 @@
-/*
+
 
 @media screen and (max-width: 500px) {
   .svg {
@@ -7,50 +7,105 @@
 
   .start {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     align-items:center;
 
   }
+  img#fish{
+    width: 20vw;
+    height: 10vh;
+  }
 
-<<<<<<< HEAD
-#textone {
+p#textone {
   margin: 0 auto;
-
 width: 80vW;
 height: 200px;
 text-align: center;
-=======
-  .texteight {
-  display: flex;
-  align-self: flex-end;
-  margin:10%;
-
-  }
-
-  #bags_attic {
-  /*minska bildstorlek*/
-  }
-
-.bakgrund.eight {
-  display: flex;
-  flex-direction: column;
-
 }
 
-.bakgrund.nine {
-  display: flex;
-  flex-direction: column;
-}
->>>>>>> c6dbc6c89e7b17fbedd251722367d8a90b8c4e98
-}
 .bakgrund.one {
-  background-color: green;
 
-  }
+  justify-content: space-around;
+}
 
+img#puddle {
+  width: 80vw;
+}
 
-}*/
+.bakgrund.two {
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-content: center;
+}
+
+img.mess {
+  height: 35vh;
+  width: 80vw;
+}
+p#texttwo {
+  width: 80vw;
+  height: 35vh;
+}
+.bakgrund.three {
+flex-direction: column;
+z-index: 1;
+}
+p#textthree {
+
+  width: 80vw;
+  height: 35vh;
+}
+
+.bakgrund.four {
+align-content: center;
+flex-direction: column-reverse;
+justify-content: space-around;
+}
+
+p#textfour {
+  width: 80vw;
+  height: 35vh;
+}
+
+img#skåp {
+  margin-right: 0;
+margin-top: 20px;
+  height: 70vh;
+}
+
+.bakgrund.five {
+  flex-direction: column;
+}
+
+img#stairs {
+
+  height: 80vh;
+  width: 80vw;
+}
+
+.bakgrund.six {
+
+  flex-direction: column-reverse;
+}
+
+p#textsix {
+  width: 80vw;
+}
+
+.bakgrund.seven {
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+p#textseven {
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+
+}
+}
 
 
 
@@ -63,9 +118,6 @@ p {
   font-size: 120%;
 }
 
-* {
-
-}
 
 
 
@@ -178,9 +230,8 @@ width: 40vw;
 .mess {
   height: 20vh;
   width: 45vw;
-  align-self:baseline;
-  margin-right: 10%;
-  margin-top: 20%;
+
+
   animation-delay: 0.5s;
 
 
@@ -196,7 +247,7 @@ width: 40vw;
   position: relative;
 }
 #textthree {
-  margin-left: 20px;
+
   height: 200px;
   width: 300px;
 }
@@ -214,6 +265,7 @@ width: 40vw;
   height: 100px;
   width: 150px;
   animation: kitchenware1 10s ease-in-out alternate infinite;
+  z-index: 0;
 }
 
 @keyframes kitchenware1 {
@@ -274,8 +326,8 @@ align-items: center;
 }
 
 #stairs {
-    max-height: 95vh;
-    max-width: 50vw;
+    height: 95vh;
+    width: 50vw;
 
 }
 
@@ -357,16 +409,16 @@ right: 100px;
 }
 
 .texteight {
-  width: 300px;
-  height: 200px;
+  width: 40vw;
+  margin-left: 10%;
+  align-self:center;
 }
 
 #bags_attic {
-  height: 500px;
-  width: 600px;
+  height: 60%;
+  width: 50%;
   align-self: flex-end;
   margin-bottom: 10%;
-  margin-right: 10%;
 }
 
 
