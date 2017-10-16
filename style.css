@@ -4,7 +4,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
-    
+
 
 }
 
@@ -113,7 +113,7 @@ svg path {
 }
 
 #textone {
-  margin-left: 15%;
+  margin-left: 10%;
   align-self: flex-start;
   width: 40vw;
 
@@ -252,19 +252,14 @@ align-items: center;
 }
 
 #textsix {
-
-  height: 200px;
-  width: 300px;
-  margin-left:20px;
+  width: 40vw;
   position: relative;
-
+  margin-left: 10%;
 }
 
 #goldfish {
-width: 300px ;
-height: 300px;
-
-
+  width: 300px ;
+  height: 300px;
   margin-right: 10%;
 
   animation-name: move;
@@ -324,14 +319,16 @@ right: 100px;
 }
 
 .texteight {
-  width: 300px;
-  height: 200px;
+  width: 40vw;
+  margin-left: 10%;
+  align-self:center;
 }
 
 #bags_attic {
-  height: 600px;
-  width: 800px;
+  height: 60%;
+  width: 50%;
   align-self: flex-end;
+  margin-bottom: 10%;
 }
 
 
