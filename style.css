@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
@@ -6,7 +7,15 @@
 
 
 
+=======
+@media screen and (max-width: 768px) {
+  svg {
+    width: 200px;
+  }
+  h1 { font-size: 20px; }
+>>>>>>> 4bf56d0b0d77490a11c966d68b4e4141d46649c9
 }
+
 
 
 
