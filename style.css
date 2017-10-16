@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
@@ -14,6 +15,21 @@
   }
   h1 { font-size: 20px; }
 >>>>>>> 4bf56d0b0d77490a11c966d68b4e4141d46649c9
+=======
+@media screen and (max-width: 500px) {
+  .svg {
+    width: 80vw;
+  }
+
+  .start {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  svg
+  h1 { font-size: 20px; {}}
+>>>>>>> e7f815eef8af6facce79cae687e35a8cd8bff083
 }
 
 
@@ -49,8 +65,8 @@ p {
 svg {
   margin-left: 20px;
   margin-right: 20px;
-  min-width: 575px;
-  min-height:317px;
+  width: 575px;
+  height:317px;
 
 }
 
