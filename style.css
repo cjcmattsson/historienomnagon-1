@@ -1,4 +1,4 @@
-
+/*
 
 @media screen and (max-width: 500px) {
   .svg {
@@ -9,14 +9,24 @@
     display:flex;
     justify-content: center;
     flex-direction: column;
+    align-items:center;
+
+  }
+
+#textone {
+  margin: 0 auto;
+
+width: 80vW;
+height: 200px;
+text-align: center;
+}
+.bakgrund.one {
+  background-color: green;
 
   }
 
 
-}
-
-
-
+}*/
 
 
 
@@ -33,11 +43,7 @@ p {
 
 }
 
-.ml3 {
-  font-weight: 900;
-  font-size: 3.5em;
-  font-family: Arial;
-}
+
 
 .wrapper {
   width: 100vw;
@@ -122,7 +128,7 @@ svg path {
 
 #textone {
   margin-left: 10%;
-  align-self: flex-start;
+
   width: 40vw;
 
 }
