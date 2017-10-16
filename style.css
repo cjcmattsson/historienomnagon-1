@@ -237,7 +237,7 @@ align-items: center;
 
 }
 
-.textsix {
+#textsix {
 
   height: 200px;
   width: 300px;
@@ -286,7 +286,7 @@ height: 300px;
 
 }
 
-.textseven {
+#textseven {
   width: 300px;
   height: 200px;
   position: absolute;
