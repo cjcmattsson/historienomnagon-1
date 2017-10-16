@@ -26,6 +26,8 @@ p {
 svg {
   margin-left: 20px;
   margin-right: 20px;
+  min-width: 575px;
+  min-height:317px;
 
 }
 
@@ -93,6 +95,7 @@ svg path {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column-reverse;
 }
 
 #textone {
@@ -102,16 +105,21 @@ svg path {
 }
 
 #puddle {
-  height: 800px;
-  width: 700px;
-animation-delay: 1s;
+
+
+
 }
 
 .two {
   background-color: rgb(219, 212, 206);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items:center;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f0b9f7cdbb59f39f7ed13aa24ed15cf4c0f4ba30
 }
 
 #texttwo {
@@ -136,17 +144,29 @@ width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  position: relative;
 }
 #textthree {
   margin-left: 20px;;
   height: 200px;
   width: 300px;
+<<<<<<< HEAD
+=======
+  font-size: 24px;
+  z-index: 1;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+>>>>>>> f0b9f7cdbb59f39f7ed13aa24ed15cf4c0f4ba30
 }
 
 #fish {
   height: 200px;
   transform: rotate(-90deg);
+  position: absolute;
+  top: 50px;
+  z-index: 0;
+  animation: kitchenware1 10s ease alternate infinite;
 }
 
 #kitchenware1 {
@@ -191,7 +211,7 @@ background-size:60px 60px;
   margin: 20%;
 }
 
-.skåp {
+#skåp {
   align-self:center;
   height: 600px;
   width: 250px;
@@ -204,7 +224,7 @@ background-size:60px 60px;
 .five {
 display: flex;
 justify-content:  space-around;
-background-color: grey;
+background-color: #e7e7e8;
 align-items: center;
 }
 
@@ -212,11 +232,12 @@ align-items: center;
   margin: 0;
   height: 200px;
   width: 300px;
+  font-size: 24px;
 }
 
 #stairs {
-    min-height: 70vh;
-    min-width: 25vw;
+    max-height: 95vh;
+    max-width: 50vw;
 
 }
 
@@ -231,18 +252,20 @@ align-items: center;
 }
 
 .textsix {
+
   height: 200px;
   width: 300px;
   font-size: 24px;
+  margin-left:20px;
+  position: relative;
 
 }
 
 #goldfish {
-  min-width: 40vw;
-  min-height: 70vh;
-  max-width: 40vh;
-  max-height: 70vh;
-  align-self: flex-start;
+width: 300px ;
+height: 300px;
+
+
   margin-right: 10%;
 
   animation-name: move;
@@ -270,21 +293,28 @@ align-items: center;
 
 .seven {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-around;
+
   align-items:center;
   background-color: pink;
+  position: relative;
 
 }
 
 .textseven {
   width: 300px;
   height: 200px;
+  font-size: 24px;
+  position: absolute;
+  left: 100px;
 }
 #vase {
   height: 300px;
   width: 200px;
   transform: rotate(-120deg);
+position: absolute;
+top: 20px;
+right: 100px;
 }
 
 .eight {
