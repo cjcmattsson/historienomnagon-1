@@ -1,3 +1,17 @@
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    
+
+}
+
+
+
+
+
 body {
   margin: 0px;
   font-size: 16px;
@@ -341,21 +355,42 @@ right: 100px;
 }
 
 .ten {
-
+background-color: orange;
+display:flex;
+justify-content: center;
+align-items: center;
 }
 
-.textten{
+#textten{
   width: 300px;
   height: 200px;
 }
 
+#nyckelhal2 {
+  width: 300px;
+  height: 400px;
+}
+
+
 .eleven {
   background-color:grey;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
   align-items: center;
 }
 
+#texteleven {
+
+  height:200px;
+  width: 300px;
+}
+
+#skåpbox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 #skåpvas {
 z-index: 1;
