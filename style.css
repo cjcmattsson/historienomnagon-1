@@ -28,7 +28,7 @@
   }
 
 p#textone {
-  margin: 0 auto;
+  margin: 0 auto 20% auto;
 width: 70vW;
 height: 200px;
 text-align: center;
@@ -42,7 +42,7 @@ text-align: center;
 
 
 img#puddle {
-  width: 70vw;
+  width: 300px;
 }
 
 .bakgrund.two {
@@ -58,7 +58,7 @@ img.mess {
 p#texttwo {
   width: 70vw;
   height: 35vh;
-  margin: 0;
+  margin: auto auto 20% auto;
 }
 .bakgrund.three {
 flex-direction: column;
@@ -118,7 +118,7 @@ p#textsix {
 
 p#textseven {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 10%;
 
 }
@@ -133,6 +133,7 @@ img.bags_attic {
 height: 300px;
 width: 300px;
 align-self: center;
+margin:10% auto 10% auto;
 }
 
 p.texteight {
@@ -147,6 +148,8 @@ p.texteight {
 
 img#rathole {
   width: 80vw;
+  height: 50vh;
+  margin: 10% auto 10% auto;
 }
 
 .bakgrund.ten {
@@ -180,6 +183,7 @@ body {
 
 p {
   font-size: 120%;
+  font-family: 'Vollkorn', serif;
 }
 
 
@@ -288,13 +292,15 @@ width:50%;
 }
 
 #texttwo {
-margin-left: 10%;
-width: 40vw;
+margin-left: 5%;
+width: 30vw;
+  font-family: 'Dyslexie Regular';
 }
 
 .mess {
-  height: 20vh;
-  width: 45vw;
+  height: 500px;
+  width: 700px;
+  margin:auto 5% auto 5%;
 
 
   animation-delay: 0.5s;
@@ -315,6 +321,7 @@ width: 40vw;
 
   height: 200px;
   width: 300px;
+
 }
 
 #fish {
@@ -334,8 +341,8 @@ width: 40vw;
 }
 
 @keyframes kitchenware1 {
-    from { transform: rotate(90deg) translateX(150px) rotate(0deg); }
-    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+    from { transform: rotate(90deg) translateX(100px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
 }
 
 #kitchenware2 {
@@ -347,7 +354,7 @@ width: 40vw;
 @keyframes kitchenware2 {
   from { transform: rotate(20deg) translateX(300px) rotate(360deg); }
 
-  to   {transform: rotate(360deg) translateY(300px) rotate(-360deg); }
+  to   {transform: rotate(360deg) translateY(250px) rotate(-360deg); }
 
   }
 
@@ -361,8 +368,8 @@ background-size:60px 60px;
 }
 
 #textfour {
-  display: flex;
-  margin-top: 10%;
+
+  margin-top: 20%;
   margin-left: 10%;
   width: 40vw;
 }
@@ -407,15 +414,16 @@ align-items: center;
 }
 
 #textsix {
-  width: 40vw;
+  width: 30vw;
   position: relative;
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #goldfish {
   width: 300px ;
   height: 300px;
-  margin-right: 10%;
+  margin-right:5%;
 
   /*animation-name: move;
           animation-duration: 2s;
@@ -480,11 +488,10 @@ right: 100px;
 }
 
 .bags_attic {
-  height: 60%;
-  width: 50%;
-
-
-}
+  height: 70%;
+  width: 60%;
+  margin: 5% 5% auto 5%;
+  }
 
 
 .nine {
@@ -496,13 +503,13 @@ right: 100px;
 }
 
 .textnine {
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 350px;
 }
 
 #rathole {
-  height: 350px;
-  width: 500px;
+  height: 550px;
+  width: 700px;
 
 }
 
