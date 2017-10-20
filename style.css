@@ -236,6 +236,10 @@ svg path {
   }
 }
 
+svg:hover {
+  transform: rotatex(90deg)
+}
+
 .bakgrund {
   height: 100vh;
   width: 100vw;
