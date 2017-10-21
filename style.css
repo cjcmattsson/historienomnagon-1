@@ -28,7 +28,7 @@
   }
 
 p#textone {
-  margin: 0 auto 20% auto;
+  margin: 0 auto 50% auto;
 width: 70vW;
 height: 200px;
 text-align: center;
@@ -37,8 +37,13 @@ text-align: center;
 .bakgrund.one {
   align-content: center;
   justify-content: space-around;
+
 }
 
+/*background-image#floor {
+  width: 100vw;
+  height: 100vh;
+}*/
 
 
 img#puddle {
@@ -263,13 +268,22 @@ svg:hover {
 }
 
 .one {
-
-  background-color: rgb(172, 140, 121);
+  background-image: url(wood2.png);
+  background-position:bottom;
+  background-size: cover;
+  background-repeat: repeat;
+  
+  background-color: lightgrey;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column-reverse;
 }
+
+/*background-image#floor {
+  background-size: cover;
+  background-repeat: repeat;
+}*/
 
 #textone {
   margin-left: 10%;
@@ -279,9 +293,7 @@ svg:hover {
 }
 
 #puddle {
-width:50%;
-
-
+width:500px;
 }
 
 .two {
