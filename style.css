@@ -269,20 +269,18 @@ svg:hover {
 
 .one {
   background-image: url(wood2.png);
-  background-position:bottom;
-  background-size: cover;
-  background-repeat: repeat;
-  
-  background-color: lightgrey;
+  /*background-size: cover;*/
+
+  background-color: brown;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column-reverse;
 }
 
-/*background-image#floor {
+/*background#floor {
   background-size: cover;
-  background-repeat: repeat;
+background-repeat: repeat;
 }*/
 
 #textone {
