@@ -281,11 +281,7 @@ svg:hover {
 
 .one {
   margin: 0;
-  background-image: url(wood2.png);
-  /*background-size: cover;*/
-
-
-  background-repeat: repeat-x;
+  background-color: rgb(166, 141, 123);
   display: flex;
   align-items: center;
   justify-content: center;
