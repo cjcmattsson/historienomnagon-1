@@ -7,6 +7,10 @@
     margin: 0;
 
   }
+  .bakgrund {
+    height: 100vh;
+    width: 100vw;;
+  }
 
   .section {
 
@@ -52,18 +56,19 @@ img#puddle {
 
 .bakgrund.two {
   flex-direction: column-reverse;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
 }
 
 img.mess {
   height: 35vh;
   width: 70vw;
+  margin: 0;
 }
 p#texttwo {
   width: 70vw;
   height: 35vh;
-  margin: auto auto 20% auto;
+  margin-bottom: 20px;
 }
 .bakgrund.three {
 flex-direction: column;
@@ -171,10 +176,17 @@ img#rathole {
   display: flex;
   flex-direction: column;
 }
+
 img#flippedvase {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   align-self: center;
+
+}
+
+img.tapeworm {
+  height: 100px;
+  width: 100px;
 }
 }
 
@@ -268,10 +280,12 @@ svg:hover {
 }
 
 .one {
+  margin: 0;
   background-image: url(wood2.png);
   /*background-size: cover;*/
 
-  background-color: brown;
+
+  background-repeat: repeat-x;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -556,13 +570,11 @@ align-items: center;
 }
 
 #skåpbox {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 #skåpvas {
-z-index: 1;
+z-index: 2;
 height: 350px;
 width: 350px;
 }
@@ -570,17 +582,20 @@ width: 350px;
   height: 350px;
   width: 350px;
   transition: .2s ease;
-
+z-index: 3;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-#dörrvas {
-z-index: 2;
-position: absolute;
+.dörrvas {
+z-index: 1;
+display: none;
   transform-origin: left;
 transition: .5s ease-in-out;
 }
 
-.dörrvas.active  {
+.dörrvas:hover ≈ .dörrtrigger {
   transform: rotatey(180deg);
 pointer-events: none;
 }
@@ -589,11 +604,39 @@ pointer-events: none;
   background-color: pink;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+
 }
 
 .texttwelve {
   margin:20px;
+
+
+}
+
+@keyframes tapeworm {
+  from {
+
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tapeworm {
+  width: 200px;
+  height: 200px;
+  animation-name: tapeworm;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+
+.imagetwelve {
+  display: flex;
+  width: 100vw;
 
 }
 
